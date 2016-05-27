@@ -40,10 +40,6 @@ Type: `string`
 
 The ISO 4217 code of the target of the currency conversion.
 
-## Related
-
-* [how-much-cli](https://github.com/alebelcor/how-much-cli) - Get the currency conversion of an exchange rate through the command-line
-
 ## License
 
 MIT © Alejandro Beltrán
