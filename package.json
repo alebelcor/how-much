@@ -26,7 +26,8 @@
     "url": "https://github.com/alebelcor/how-much.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "got": "^6.3.0",
@@ -34,6 +35,11 @@
     "validate-currency-code": "^0.1.0"
   },
   "devDependencies": {
-    "ava": "^0.15.1"
+    "ava": "^0.15.1",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.4.4"
+  },
+  "engines": {
+    "node": ">=4"
   }
 }

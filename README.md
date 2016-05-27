@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/how-much.svg)](https://npmjs.org/package/how-much)
 [![Build Status](https://img.shields.io/travis/alebelcor/how-much/master.svg)](https://travis-ci.org/alebelcor/how-much)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/how-much.svg)](https://coveralls.io/github/alebelcor/how-much)
 
 ## Install
 
