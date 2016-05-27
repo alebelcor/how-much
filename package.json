@@ -1,0 +1,39 @@
+{
+  "name": "how-much",
+  "version": "0.1.0",
+  "description": "Get the currency conversion of an exchange rate",
+  "keywords": [
+    "currency",
+    "conversion",
+    "exchange",
+    "rates",
+    "money"
+  ],
+  "bugs": "https://github.com/alebelcor/how-much/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/how-much.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "got": "^6.3.0",
+    "money": "^0.2.0",
+    "validate-currency-code": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.1"
+  }
+}
