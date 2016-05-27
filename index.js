@@ -34,5 +34,4 @@ module.exports = function (from, to) {
       return getExchangeRate(data, fromCode, toCode);
     })
     .catch(console.error);
-
 };
