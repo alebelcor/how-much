@@ -13,10 +13,14 @@ test('it should validate the parameters', t => {
 });
 
 test('it should return a promise', t => {
-  t.deepEqual('function', typeof howMuch('USD', 'MXN').then);
-  howMuch('USD', 'MXN').then(rate => {
+  var promise = howMuch('USD', 'MXN');
+
+  t.deepEqual(typeof promise.then, 'function');
+
+  promise.then(rate => {
     t.is(typeof rate, 'number');
     t.true(rate > 0.0);
+
     t.end();
   });
 });
