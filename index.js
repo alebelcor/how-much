@@ -27,11 +27,9 @@ module.exports = function (from, to) {
 
   return got.get(EXCHANGE_RATES_API_URL, {
     headers: {'user-agent': pkg.repository.url},
-    query: {base: fromCode}
+    query: {base: fromCode, symbols: toCode}
   })
     .then(filterResponse)
-    .then(data => {
-      return getExchangeRate(data, fromCode, toCode);
-    })
+    .then(getExchangeRate)
     .catch(console.error);
 };
