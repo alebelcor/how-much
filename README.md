@@ -1,3 +1,11 @@
+# Deprecated
+
+![No Maintenance Intended](https://img.shields.io/maintenance/no/2019.svg)
+
+Use [`fixer-api`](https://www.npmjs.com/package/fixer-api) instead.
+
+- - -
+
 # how-much
 
 > Get the currency conversion of an exchange rate
